@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alex's Birthday — October 15, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav wrap">
+    <a href="#top" class="logo">Alex<span>'s Day</span></a>
+    <nav class="nav-links">
+      <a href="#wishlist">Wishlist</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#wishes">Send a wish</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#wishlist">Wishlist</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#wishes">Send a wish</a>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-photo">
+      <img src="assets/profile.png" alt="Portrait of Sunmibola Alex Adesanya">
+    </div>
+    <div class="hero-copy">
+      <div class="eyebrow">Grateful for life</div>
+      <h1>Sunmibola Alex<br>Adesanya</h1>
+      <p class="hero-sub">Grateful &middot; Focused &middot; Building my future</p>
+      <p class="hero-date">Celebrating on <strong>15th October 2026</strong></p>
+
+      <div class="countdown" id="countdown" aria-live="polite">
+        <div class="countdown-unit"><span id="cd-days">00</span><small>Days</small></div>
+        <div class="countdown-unit"><span id="cd-hours">00</span><small>Hours</small></div>
+        <div class="countdown-unit"><span id="cd-mins">00</span><small>Mins</small></div>
+        <div class="countdown-unit"><span id="cd-secs">00</span><small>Secs</small></div>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#wishlist" class="btn btn-primary">View my wishlist</a>
+        <a href="#wishes" class="btn btn-ghost">Send a wish</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NOTE ===== -->
+<section class="note-section">
+  <div class="wrap note-inner">
+    <p>You don't have to get everything on this list — anything you give from the heart will be deeply appreciated. Your prayers, love, presence, encouragement and support mean a lot too.</p>
+    <p class="note-signoff">Another year. Another chapter. Another opportunity to become more. Thank you for being part of my journey. 🙏</p>
+  </div>
+</section>
+
+<!-- ===== WISHLIST ===== -->
+<section id="wishlist">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num">Wishlist</div>
+      <h2>A few things on my heart this year</h2>
+      <p>Organized by category — pick whatever speaks to you, or send something entirely your own.</p>
+    </div>
+
+    <div class="wishlist-grid">
+
+      <div class="wish-card">
+        <div class="wish-icon wish-icon-music">♪</div>
+        <h3>Music</h3>
+        <span class="wish-tag">Create &middot; Record &middot; Worship</span>
+        <ul>
+          <li>Keyboard (MIDI / 61 keys or more)</li>
+          <li>Studio microphone (condenser + stand)</li>
+          <li>Audio interface</li>
+          <li>Studio recording session (mixing &amp; mastering)</li>
+          <li>Live recording session</li>
+          <li>Support towards Bethel Experience '26 ❤</li>
+        </ul>
+      </div>
+
+      <div class="wish-card">
+        <div class="wish-icon wish-icon-tech">▣</div>
+        <h3>Tech</h3>
+        <span class="wish-tag">Work &middot; Create &middot; Grow</span>
+        <ul>
+          <li>27" monitor (IPS / QHD)</li>
+          <li>External SSD (1TB / 2TB)</li>
+          <li>Mechanical keyboard (or comfortable developer keyboard)</li>
+          <li>Ergonomic laptop stand</li>
+          <li>Power bank / UPS (reliable power solution)</li>
+          <li>High-speed internet (backup option)</li>
+        </ul>
+      </div>
+
+      <div class="wish-card">
+        <div class="wish-icon wish-icon-fashion">◎</div>
+        <h3>Fashion</h3>
+        <span class="wish-tag">Look good &middot; Feel good</span>
+        <ul>
+          <li>Quality suit (business / formal)</li>
+          <li>Office shirts (long sleeve)</li>
+          <li>Ties &amp; accessories</li>
+          <li>Smart shoes</li>
+          <li>Casual outfits (smart and comfortable)</li>
+        </ul>
+      </div>
+
+      <div class="wish-card">
+        <div class="wish-icon wish-icon-growth">▤</div>
+        <h3>Growth</h3>
+        <span class="wish-tag">Learn &middot; Develop &middot; Excel</span>
+        <ul>
+          <li>Tech / programming books</li>
+          <li>Finance &amp; investment books</li>
+          <li>Marriage &amp; relationship books</li>
+          <li>Spiritual books (Bible + devotional)</li>
+          <li>Personal development books</li>
+          <li>Online courses / certifications</li>
+        </ul>
+      </div>
+
+      <div class="wish-card wish-card-wide">
+        <div class="wish-icon wish-icon-gifts">◈</div>
+        <h3>Gifts</h3>
+        <span class="wish-tag">Any gift is special</span>
+        <ul>
+          <li>Cash gift</li>
+          <li>Bank transfer</li>
+          <li>Any thoughtful gift ❤</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== GIFT / ACCOUNT DETAILS ===== -->
+<section class="gift-section">
+  <div class="wrap">
+    <div class="gift-card">
+      <div>
+        <div class="sec-num">Gift details</div>
+        <h2>My account details</h2>
+        <p>If a cash gift feels right to you, here's where it can go — no pressure at all.</p>
+      </div>
+      <div class="account-box">
+        <div class="account-row">
+          <span class="account-label">Bank</span>
+          <span class="account-value">Opay</span>
+        </div>
+        <div class="account-row">
+          <span class="account-label">Account Number</span>
+          <span class="account-value" id="accountNumber">7041979656</span>
+        </div>
+        <button class="btn btn-primary copy-btn" id="copyBtn" data-value="7041979656">Copy account number</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section id="gallery">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num">Gallery</div>
+      <h2>Download my photos</h2>
+      <p>Grateful Heart.</p>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      <div class="gallery-item">
+        <img src="assets/gallery/photo-1.png" alt="Portrait of Sunmibola Alex Adesanya">
+        <a href="assets/gallery/photo-1.png" download="alex-birthday-photo-1.png" class="download-btn">Download ⤓</a>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/gallery/photo-2.png" alt="Portrait of Sunmibola Alex Adesanya">
+        <a href="assets/gallery/photo-2.png" download="alex-birthday-photo-2.png" class="download-btn">Download ⤓</a>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/gallery/photo-3.jpg" alt="Portrait of Sunmibola Alex Adesanya">
+        <a href="assets/gallery/photo-3.jpg" download="alex-birthday-photo-3.jpg" class="download-btn">Download ⤓</a>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/gallery/photo-4.jpg" alt="Portrait of Sunmibola Alex Adesanya">
+        <a href="assets/gallery/photo-4.jpg" download="alex-birthday-photo-4.jpg" class="download-btn">Download ⤓</a>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/gallery/photo-5.jpg" alt="Portrait of Sunmibola Alex Adesanya">
+        <a href="assets/gallery/photo-5.jpg" download="alex-birthday-photo-5.jpg" class="download-btn">Download ⤓</a>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/gallery/photo-6.jpg" alt="Portrait of Sunmibola Alex Adesanya">
+        <a href="assets/gallery/photo-6.jpg" download="alex-birthday-photo-6.jpg" class="download-btn">Download ⤓</a>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/gallery/photo-7.jpg" alt="Portrait of Sunmibola Alex Adesanya">
+        <a href="assets/gallery/photo-7.jpg" download="alex-birthday-photo-7.jpg" class="download-btn">Download ⤓</a>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/gallery/photo-8.jpg" alt="Portrait of Sunmibola Alex Adesanya">
+        <a href="assets/gallery/photo-8.jpg" download="alex-birthday-photo-8.jpg" class="download-btn">Download ⤓</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WISHES WALL ===== -->
+<section id="wishes" class="wishes-section">
+  <div class="wrap">
+    <div class="wishes-inner">
+      <div class="wishes-copy">
+        <div class="sec-num">Wishes</div>
+        <h2>Send me a birthday wish</h2>
+        <p>Drop a message below — I read every single one, and it means more than you know.</p>
+      </div>
+
+      <form id="wishForm" class="wish-form" action="https://formspree.io/f/mdeoyzbp" method="POST">
+        <div class="field-group">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field-group">
+          <label for="email">Your email <span class="optional">(optional, in case I want to reply)</span></label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="field-group">
+          <label for="message">Your birthday wish</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send my wish</button>
+        <p class="form-note" id="formNote">Sent privately — only I will see this message.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="logo footer-logo">Alex<span>'s Day</span></div>
+    <p>Thanks for being part of my journey.</p>
+    <div class="hashtags">
+      #BirthdayWishlist &nbsp;#October15&nbsp; #Birthday2026&nbsp; #GratefulHeart
+    </div>
+    <p class="footer-bottom">© <span id="year"></span> Sunmibola Alex Adesanya</p>
+  </div>
+</footer>
+
+<div id="toast" class="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
